@@ -7,3 +7,7 @@ export function addTen(num) {
 export function addFive(num) {
   return add(num, 5);
 }
+
+export function addOne(num) {
+  return add(num, 1);
+}
