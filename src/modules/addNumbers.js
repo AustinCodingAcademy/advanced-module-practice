@@ -1,9 +1,7 @@
-import add from "./add";
+module.exports.addOne=
 
-export function addTen(num) {
-  return add(num,10);
-}
+const number1 = 393;
+const number2 = 238;
 
-export function addFive(num) {
-  return add(num, 5);
-}
+answer = addOne(number1);
+console.log(answer);
